@@ -7,7 +7,8 @@
     "open": "node app.js",
     "open-ins": "node instagram/openins.js",
     "search-ins": "node instagram/get-search-urls.js",
-    "get-details-ins": "node instagram/get-detail.js"
+    "get-details-ins": "node instagram/get-detail.js",
+    "run-ins": "node instagram/run.js"
   },
   "author": "",
   "license": "ISC",
