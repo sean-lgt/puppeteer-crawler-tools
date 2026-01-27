@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "open": "node app.js",
-    "open-ins": "node instagram/openins.js"
+    "open-ins": "node instagram/openins.js",
+    "search-ins": "node instagram/get-search-urls.js"
   },
   "author": "",
   "license": "ISC",
