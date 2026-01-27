@@ -1,0 +1,14 @@
+{
+  "name": "puppeteer-crawler-tools",
+  "version": "1.0.0",
+  "description": "利用 puppeteer 执行一些简单爬虫的小工具",
+  "main": "index.js",
+  "scripts": {
+    "open": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.36.0"
+  }
+}
