@@ -93,6 +93,10 @@ async function main() {
         }
       }
 
+      // 启动网络监听
+      page.on('request', onRequest)
+      page.on('response', onResponse)
+
       // 初始超时，防止无限等待
       setTimeout(() => {
         page.off('request', onRequest)
